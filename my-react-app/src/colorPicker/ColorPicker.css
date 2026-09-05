@@ -1,0 +1,32 @@
+body{
+    .color-picker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .color-picker input[type="color"] {
+        width: 100px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .color-picker p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+}
+
+.color-display {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

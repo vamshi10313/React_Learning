@@ -4,6 +4,7 @@ import Food from './demo/Food'
 import Card from './Card'
 import Button from './Button'
 import OnChangeEx from './OnChangeEx'
+import ColorPicker from './colorPicker/ColorPicker'
 function App() {
 
   return (
@@ -18,7 +19,9 @@ function App() {
 
       {/* <Button /> */}
 
-      <OnChangeEx />
+      {/* <OnChangeEx /> */}
+
+      <ColorPicker />
     </>
   )
 }
