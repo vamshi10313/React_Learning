@@ -10,7 +10,10 @@ const Button = () => {
     // }  
 
     const handleIncrement = () => {
-        setCount(count + 1);
+        setCount((c)=>{
+            return c+1
+        });
+        
     }
 
     const handleDecrement = () => {

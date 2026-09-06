@@ -5,6 +5,9 @@ import Card from './Card'
 import Button from './Button'
 import OnChangeEx from './OnChangeEx'
 import ColorPicker from './colorPicker/ColorPicker'
+import UpdateObject from './UpdateObject'
+import UpdateArray from './UpdateArray';
+
 function App() {
 
   return (
@@ -21,7 +24,11 @@ function App() {
 
       {/* <OnChangeEx /> */}
 
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+
+      {/* <UpdateObject /> */}
+
+      <UpdateArray />
     </>
   )
 }
