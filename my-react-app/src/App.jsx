@@ -7,6 +7,8 @@ import OnChangeEx from './OnChangeEx'
 import ColorPicker from './colorPicker/ColorPicker'
 import UpdateObject from './UpdateObject'
 import UpdateArray from './UpdateArray';
+import CarObject from './CarObject/CarObject.jsx'
+import ToDoList from './ToDoList/ToDoList'
 
 function App() {
 
@@ -28,7 +30,11 @@ function App() {
 
       {/* <UpdateObject /> */}
 
-      <UpdateArray />
+      {/* <UpdateArray /> */}
+
+      {/* <CarObject /> */}
+
+      <ToDoList />
     </>
   )
 }
